@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAV BAR -->
+
+    <div id="nav_bar">
+      <img class="hamMenu" src="images/hamburgerMenu.png" />
+      <img class="youTubeLogo" src="images/youTube.png" />
+      <form id="search">
+        <div class="searchBox">
+          <input
+            class="searchBar"
+            type="search"
+            id="query"
+            placeholder="Search"
+          />
+          <img class="searchBtn" src=images/searchIcon.jpeg>
+        </div>
+        <img class="micIcon" src="images/microphoneIcon.png" />
+      </form>
+      <img class="camIcon" src="images/cameraIcon.png" />
+      <img class="appsIcon" src="images/gridIcon.png" />
+      <img class="bellIcon" src="images/bellIcon.jpg" />
+      <button class="profileIcon">F</button>
+    </div>
+
+    <!-- MAIN -->
+
+    <div id="main">
+      <div id="videos">
+        <iframe
+          class="mainVid"
+          width="1024"
+          height="576"
+          src="https://www.youtube.com/embed/kFRdoYfZYUY"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <div id="vidDescription">
+          <h2>Hania Rani - Live From Studio S2</h2>
+          <div id="mainVid__sub">
+            <p class="mainSub">2,344,054 views</p>
+            <img class="mainVid_sub--icon" src="images/thumb-up.png" />107K
+            <img class="mainVid_sub--icon" src="images/thumb-down.png" />1K
+            <img class="mainVid_sub--icon" src="images/share.png" />SHARE
+            <img
+              class="mainVid_sub--icon"
+              src="images/add-to-playlist.png"
+            />SAVE
+          </div>
+          <hr class="divisor" />
+          <div class="subscribe">
+            <img class="subscribe__logo" src="images/Gondwana Records.jpeg" />
+            <h3 class="channel">Gondwana Records</h3>
+            <button class="btn_subscribe">SUBSCRIBE</button>
+          </div>
+          <p>
+            Listen to 'Live from Studio S2':
+            https://hania-rani.lnk.to/Live-from-S... The full live set video was
+            premiered on the evening before the annual Piano Day
+          </p>
+          <p>SHOW MORE</p>
+        </div>
+      </div>
+
+      <!-- SIDE BAR -->
+      <div id="side_bar">
+        <button class="chatBtn">SHOW CHAT REPLAY</button>
+        <div class="btnDiv">
+          <button class="btnRel">Piano</button>
+          <button class="btnRel">Keyboards</button>
+          <button class="btnRel">Related</button>
+          <button class="btnRel">From Gondwana</button>
+        </div>
+        <div>
+          <div class="side_bar--imgDiv">
+            <img class="side_bar--img" src="images/HaniaRaniBratislava.webp" />
+            <div class="side_bar--imgText">
+              <h3>Hania Rani - Bratislava 2021 Full Concert (Audio)</h3>
+              <p class="side_bar--subText">progress</p>
+              <p class="side_bar--subText">20K views · 2 months ago</p>
+            </div>
+          </div>
+          <div class="side_bar--imgDiv">
+            <img class="side_bar--img" src="images/EydisEvensenFull.webp" />
+            <div class="side_bar--imgText">
+              <h3>Eydís Evensen - Full Performance (Live on KEXP)</h3>
+              <p class="side_bar--subText">KEXP</p>
+              <p class="side_bar--subText">1.1M views · 4 months ago</p>
+            </div>
+          </div>
+          <div class="side_bar--imgDiv">
+            <img class="side_bar--img" src="images/FestiwalClassix.webp" />
+            <div class="side_bar--imgText">
+              <h3>
+                Festiwal ClassiX 2020 | Hania Rani & Dobrawa Czocher | ...
+              </h3>
+              <p class="side_bar--subText">Festiwal ClassiX</p>
+              <p class="side_bar--subText">187K views · 10 months ago</p>
+            </div>
+          </div>
+          <div class="side_bar--imgDiv">
+            <img class="side_bar--img" src="images/HaniaRaniGlass.webp" />
+            <div class="side_bar--imgText">
+              <h3>Hania Rani - Glass (Official Video) [Gondwana Records]</h3>
+              <p class="side_bar--subText">Gondwana Records</p>
+              <p class="side_bar--subText">1.5M views · 2 years ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

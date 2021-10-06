@@ -1,0 +1,205 @@
+body {
+  margin-top: 0%;
+}
+
+#nav_bar {
+  min-height: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#side_bar {
+  min-height: 50%;
+  flex: auto;
+  margin: 3% 4% 2% 0;
+}
+
+#videos {
+  min-height: 50px;
+  flex: auto;
+  margin: 3%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#main {
+  background-color: #f3f1f5;
+  display: flex;
+  height: 100%;
+  margin-left: -1%;
+  margin-right: -1%;
+}
+
+#search {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#vidDescription {
+  margin-top: 3%;
+}
+
+#mainVid__sub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ICONS */
+
+.bellIcon {
+  width: 2%;
+  height: 30%;
+}
+
+.camIcon {
+  width: 1.5%;
+  height: 10%;
+}
+
+.appsIcon {
+  width: 1.5%;
+  height: 30%;
+}
+
+.micIcon {
+  width: 4%;
+  height: 30%;
+  background-color: rgb(230, 228, 228);
+  border-radius: 100%;
+  margin-left: 2%;
+}
+
+.profileIcon {
+  border-radius: 100%;
+  background-color: grey;
+  color: white;
+  width: 1.5%;
+}
+
+.hamMenu {
+  width: 3%;
+  height: 60%;
+}
+
+.youTubeLogo {
+  width: 6%;
+  margin-right: 20%;
+}
+
+/* BUTTONS */
+
+.btnRel {
+  padding: 1% 2%;
+  border-radius: 25px;
+  margin-right: 0.5%;
+  margin-bottom: 3%;
+  font-size: 1rem;
+}
+
+.chatBtn {
+  width: 100%;
+  padding: 1.5%;
+  background-color: white;
+  border-color: #dddddd;
+  color: #595260;
+}
+
+.searchBtn {
+  width: 6%;
+  height: 100%;
+  border-left-style: solid;
+  border-left-color: lightgrey;
+}
+
+/* SEARCH */
+
+.btnDiv {
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
+.searchBar {
+  height: 50%;
+  width: 75%;
+  border: none;
+}
+
+.searchBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: lightgrey;
+  border-style: solid;
+  width: 75%;
+}
+
+/* SIDE BAR */
+
+.side_bar--imgDiv {
+  display: flex;
+  margin-bottom: 1%;
+}
+
+.side_bar--imgText {
+  margin-left: 3%;
+  margin-top: -3%;
+}
+
+.side_bar--img {
+  width: 50%;
+  height: 100%;
+}
+
+.side_bar--subText {
+  color: #595260;
+  margin: 0;
+}
+
+/* MAIN */
+
+.mainVid_sub--icon {
+  width: 3%;
+  height: 80%;
+}
+
+.mainSub {
+  margin-right: 50%;
+  color: #595260;
+}
+
+.divisor {
+  color: #dddddd;
+  width: 100%;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.subscribe__logo {
+  width: 10%;
+}
+
+.btn_subscribe {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 2%;
+}
+
+.channel {
+  padding-right: 55%;
+  margin-bottom: 5%;
+}
